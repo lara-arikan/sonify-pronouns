@@ -5,3 +5,5 @@ To run:
 Command line takes four args maximum (filename, language, key, octave, save)
 Save added only to save to disk: midi file appears in the same folder as python file
 
+This repository contains four sample poems and their corresponding output. The midi output of the program has been run through Ableton (a digital audio workstation) with a digital instrument and saved as an mp3 file to produce the tracks to which you may listen.
+
