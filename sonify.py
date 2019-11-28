@@ -84,7 +84,9 @@ def main():
     # To save midi output:
 
     if len(args) == 5:
-        track_name = filename + key_name + str(octave)
+        dot = filename.find('.')
+        poem_name = filename[:dot]
+        track_name = poem_name + key_name + str(octave) + '.mid'
         stream1.write("midi", track_name)
 
 if __name__ == '__main__':
